@@ -13,7 +13,7 @@ jobs:
   test:
     env:
       MONGODB_CLUSTER_ADDRESS: cluster1.jiw4o60.mongodb.net
-      MONGODB_USER_NAME: zizusat
+      MONGODB_USERNAME: zizusat
       MONGODB_PASSWORD: EzdbKkSodQ69P4Gk
       PORT: 8080
    
