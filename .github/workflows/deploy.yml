@@ -5,16 +5,16 @@ on:
       - main
       - dev
 env:
-  MONGODB_DB_NAME: gha-demo
+  MONGODB_DB_NAME: "gha-demo"
   #MONGODB_USER_NAME: zizusat
   #MONGODB_PASSWORD: EzdbKkSodQ69P4Gk
   
 jobs:
   test:
     env:
-      MONGODB_CLUSTER_ADDRESS: cluster1.jiw4o60.mongodb.net
-      MONGODB_USERNAME: zizusat
-      MONGODB_PASSWORD: EzdbKkSodQ69P4Gk
+      MONGODB_CLUSTER_ADDRESS: "cluster1.jiw4o60.mongodb.net"
+      MONGODB_USERNAME: "zizusat"
+      MONGODB_PASSWORD: "EzdbKkSodQ69P4Gk"
       PORT: 8080
    
     runs-on: ubuntu-latest

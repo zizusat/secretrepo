@@ -1,9 +1,9 @@
 import { MongoClient } from 'mongodb';
 
-const clusterAddress = "cluster1.jiw4o60.mongodb.net";
-const dbUser = "zizusat";
-const dbPassword = "ND2UMi8jklEq9uKv"
-const dbName = "gha-demo";
+const clusterAddress = MONGODB_CLUSTER_ADDRESS ;
+const dbUser = MONGODB_USERNAME ;
+const dbPassword = MONGODB_PASSWORD;
+const dbName = MONGODB_DB_NAME;
 
 const uri = `mongodb+srv://${dbUser}:${dbPassword}@${clusterAddress}/?retryWrites=true&w=majority`;
 const client = new MongoClient(uri);
