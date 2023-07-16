@@ -7,7 +7,7 @@ on:
 env:
   MONGODB_DB_NAME: gha-demo
   #MONGODB_USER_NAME: zizusat
-  #MONGODB_PASSWORD: EzdbKkSodQ69P4Gk
+  #MONGODB_PASSWORD: ND2UMi8jklEq9uKv
   
 jobs:
   test:
